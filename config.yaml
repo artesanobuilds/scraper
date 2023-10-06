@@ -1,0 +1,19 @@
+logging:
+  level: "INFO"
+  logfile: "./scraperlog"
+
+embeddings:
+  type: "OPEN_AI"
+
+site:
+  url: "https://www.orlando.gov"
+  sitemap: "/sitemap.xml"
+  name: "city_orlando"
+  scraped-path: "./scraped/"
+  use-vector-db: True
+
+openai:
+  key: "[REDACTED_OPENAI_API_KEY]"
+
+vectordb:
+  chroma-path: "./chroma"
