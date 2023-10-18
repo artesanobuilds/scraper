@@ -9,7 +9,7 @@ site:
   url: "https://www.orlando.gov"
   sitemap: "/sitemap.xml"
   name: "city_orlando"
-  scraped-path: "./scraped/"
+  scraped-path: "./scraped_clean/"
   use-vector-db: True
 
 openai:
