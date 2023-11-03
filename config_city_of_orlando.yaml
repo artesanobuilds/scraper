@@ -3,7 +3,7 @@ logging:
   logfile: "./scraperlog"
 
 embeddings:
-  type: "HUGGING_FACE_GTE_BASE"
+  type: "OPEN_AI"
 
 site:
   url: "https://www.orlando.gov"
@@ -16,4 +16,4 @@ openai:
   key: "[REDACTED_OPENAI_API_KEY]"
 
 vectordb:
-  chroma-path: "./chroma_clean"
+  chroma-path: "./chroma_clean_ada"

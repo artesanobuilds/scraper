@@ -16,4 +16,4 @@ openai:
   key: "[REDACTED_OPENAI_API_KEY]"
 
 vectordb:
-  chroma-path: "./chroma"
+  chroma-path: "./chroma_clean_cdc_ada"
