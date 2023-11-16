@@ -1,19 +1,11 @@
-logging:
-  level: "INFO"
-  logfile: "./scraperlog"
-
 embeddings:
   type: "OPEN_AI"
 
 site:
   url: "https://www.cdc.gov"
-  sitemap: "/niosh/mining/sitemap.xml"
   name: "cdc"
   scraped-path: "./scraped_cdc/"
   use-vector-db: True
-
-openai:
-  key: "[REDACTED_OPENAI_API_KEY]"
 
 vectordb:
   chroma-path: "./chroma_clean_cdc_ada"
